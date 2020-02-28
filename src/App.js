@@ -9,6 +9,7 @@ import {
   clearCompletedTodos,
   toggleTodo
 } from "./actions";
+
 class App extends Component {
   state = {
     todos: todosList
