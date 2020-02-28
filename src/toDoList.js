@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import TodoItem from "./toDoItem.js";
 import { connect } from "react-redux";
 import { deleteTodo, toggleTodo } from "./actions";
+import TodoItem from "./toDoItem.js";
 class TodoList extends Component {
+
   render() {
     return (
       <section className="main">

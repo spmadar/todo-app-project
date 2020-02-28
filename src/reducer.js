@@ -6,6 +6,7 @@ import {
     CLEAR_COMPLETED_TODOS
 } from "./actions";
 
+
 const initialState = {
     todos: todosList
 };

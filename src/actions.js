@@ -14,18 +14,21 @@ export const addTodo = (todoTitle) => {
         payload: newTodo
     }
 }
+
 export const toggleTodo = (todoIdToToggle) => {
     return {
         type: TOGGLE_TODO,
         payload: todoIdToToggle
     }
 }
+
 export const deleteTodo = (todoToDelete) => {
     return {
         type: DELETE_TODO,
         payload: todoToDelete
     }
 }
+
 export const clearCompletedTodos = () => {
     return {
         type: CLEAR_COMPLETED_TODOS
