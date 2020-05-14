@@ -1,6 +1,10 @@
 {
   "name": "todos",
+<<<<<<< HEAD
   "homepage": "http://spmadar.gitlab.io/todo-app-project",
+=======
+  "homepage": "https://spmadar.github.io/todo-app-project",
+>>>>>>> c368a2a62ca9d5350ae1e8ed5fcaa9662daa8d81
   "version": "0.1.0",
   "private": true,
   "dependencies": {
